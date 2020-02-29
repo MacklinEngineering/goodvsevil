@@ -1,0 +1,63 @@
+/* <!-- Team Members: Zahmir, Nyah, Vanessa, Josh, Eric, Finesse, Asiah --> */
+*{
+  box-sizing:border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body{
+  background: azure;
+  background-image: url(https://media.giphy.com/media/1dNm4PHRu53TEL14mm/giphy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: teal;
+  /* text-align: center; */
+  font-size: 40px;
+  margin-left: 38%;
+}
+.winMessage{
+  font-size: 3rem;
+  margin-left: 42%;
+  color: coral;
+/*   padding-bottom: 10px;
+ */
+
+}
+#displayBoard {
+  border: 1px solid lightblue;
+  height:602px;
+  width:602px;
+  margin-left: 30%;
+  color: lightblue;
+}
+
+.grid {
+  height:200px;
+  width: 200px;
+  border: 1px solid lightblue;
+  float: left;
+  font-size: 20rem;
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+}
+.noClick{
+  pointer-events: none;
+}
+
+#resetButton{
+  margin-left: 46%;
+  background-color: transparent;
+  color: lightblue;
+  border-color: lightblue;
+  padding: 5px 20px;
+  font-size: 10px;
+}
+table, h2{
+  margin-left: 45%;
+  color: lightblue;
+}
